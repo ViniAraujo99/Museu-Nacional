@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MUSEU NACIONAL</title>
+
+		<!--NORMALIZE-->
+		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+
+		<!--ESTILO-->
+		<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+		<!--COMPATIBILIDADE DAS NOVAS TAGS HTML5-->
+		<!--[if lt IE 9]>
+			<script src="JS/html5shiv.js"></script>
+		<![endif]-->
+
+	</head>
+
+<!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+	<body>
+ 		<!--MUSEU NACIONAL-->
+ 		<div id="container"> <!--INÍCIO CONTAINER-->
+
+	 		<header> <!--INÍCIO HEADER-->
+	 			
+	 			<div id="logo">
+	 				<h1>
+	 					<a href="#">MUSEU NACIONAL</a>
+	 				</h1>
+	 			</div>
+
+	 			<nav> <!--INÍCIO NAV-->
+	 				
+	 				<ul>
+	 					<li> <a href="#">INÍCIO</a> </li>
+	 					<li> <a href="#">EXPOSIÇÕES</a> </li>
+	 					<li> <a href="#">PESQUISA</a> </li>
+	 					<li> <a href="#">ACERVO</a> </li>
+	 					<li> <a href="#">VÍDEOS</a> </li>
+	 					<li> <a href="#">FOTOS</a> </li>
+	 					<li> <a class="ultimo" href="#">CONTATO</a> </li>
+	 				</ul>
+
+	 			</nav> <!--//FIM NAV-->
+
+	 		</header> <!--//FIM HEADER-->
+
+	 		<div id="principal"> <!--INÍCIO PRINCIPAL-->
+	 			
+	 			<div id="conteudo"> <!--INÍCIO CONTEÚDO-->
+	 				
+	 				<section id="capa">
+	 					<img src="IMAGENS/museu.png">
+	 				</section>
+
+	 				<section id="postagens"> <!--INÍCIO POSTAGENS-->
+
+	 					<article id="video">
+
+	 						<h3>Conheça o Museu</h3>
+	 						<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	 					</article>
+
+	 					<article id="mapa">
+
+	 						<h3>Encontre o Museu</h3>
+	 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2064455959917!2d-43.22872294999031!3d-22.905755043518035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sNational%20Museum%20of%20Brazil!5e0!3m2!1sen!2sbr!4v1646024285315!5m2!1sen!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+	 					</article>
+
+	 					<article id="exposicoes">
+
+	 						<h3>Exposições</h3>
+	 						<ul>
+	 							<li> <a href="">Os Assustadores Insetos</a> </li>
+	 							<li> <a href="">O Crânio de Luzia, A Mulher Mais Antiga do Brasil</a> </li>
+	 							<li> <a href="">Preguiça Gigante e Tigre-Dentes-de-Sabre</a> </li>
+	 							<li> <a href="">Plantas do Brasil Central</a> </li>
+	 							<li> <a href="">Teresa Cristina: A Imperatriz Arqueóloga</a> </li>
+	 							<li> <a href="">Arte Com Dinossauros - Paleoarte</a> </li>
+	 							<li> <a href=""><strong>Veja todos (65)</strong></a> </li>
+	 						</ul>
+
+	 					</article>
+
+	 					<article id="historia">
+
+	 						<h3>200 Anos de História</h3>
+	 						<p>
+	 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet ipsum vitae suscipit vestibulum. Ut lacus enim, egestas ac ex in, pharetra consequat justo. Praesent tincidunt iaculis aliquam. In vitae mi sed ante mollis malesuada a eget erat. Nunc nec molestie tellus, eget facilisis purus.
+	 						</p>
+	 						<a href=""><strong>Leia Mais</strong></a>
+
+	 					</article>
+
+	 				</section> <!--//FIM POSTAGENS-->
+
+	 			</div> <!--//FIM CONTEÚDO-->
+
+
+	 			<aside> <!--INÍCIO LATERAL-->
+	 				
+	 				<section id="depoimento"> <!--INÍCIO DEPOIMENTO-->
+
+	 					<img src="IMAGENS/depoimento.png">
+
+	 				</section> <!--//FIM DEPOIMENTO-->
+
+	 				<section id="visita"> <!--INÍCIO FAÇA UMA VISITA-->
+	 					
+	 					<form>
+
+	 						<h4>FAÇA UMA VISITA</h4>
+
+	 						<fieldset>
+	 							<legend>Selecione Uma Data</legend>
+
+	 							<label for="data">Data:</label>
+	 							<input class="campo" type="date" id="data">
+
+	 							<br><br>
+
+	 							<label for="numero">Nº Visitantes:</label>
+	 							<input class="campo" type="number" id="numero" min="1" value="1" style="width: 28px">
+
+	 						</fieldset>
+
+	 						<input class="botao" type="submit" value="Verificar Disponibilidade">
+
+	 					</form>
+
+	 				</section> <!--//FIM FAÇA UMA VISITA-->
+
+	 				<section id="galeria"> <!--INÍCIO GALERIA DE FOTOS-->
+	 					
+	 					<h4>GALERIA DE FOTOS</h4>
+
+	 					<a href="#">
+	 						<img src="IMAGENS/imagem1.jpg" width="93" height="93">
+	 					</a>
+
+	 					<a href="#">
+	 						<img src="IMAGENS/imagem2.jpg" width="93" height="93">
+	 					</a>
+
+	 					<a href="#">
+	 						<img src="IMAGENS/imagem3.jpg" width="93" height="93">
+	 					</a>
+
+	 					<a href="#">
+	 						<img src="IMAGENS/imagem4.jpg" width="93" height="93">
+	 					</a>
+
+	 				</section> <!--//FIM GALERIA DE FOTOS-->
+
+	 			</aside> <!--//FIM LATERAL-->
+
+		 		<footer> <!--INÍCIO RODAPÉ-->
+
+		 			<p>
+		 				<a href="#">INÍCIO</a>
+	 					<a href="#">EXPOSIÇÕES</a>
+	 					<a href="#">PESQUISA</a>
+	 					<a href="#">ACERVO</a>
+	 					<a href="#">VÍDEOS</a>
+	 					<a href="#">FOTOS</a>
+	 					<a href="#">CONTATO</a>
+		 			</p>
+		 			<br>
+		 			<p>
+		 				2022 | <a class="p" href="#">Museu Nacional</a> | Todos os Direitos Reservados.
+		 			</p>
+		 			
+		 		</footer> <!--//FIM RODAPÉ-->
+
+	 		</div> <!--//FIM PRINCIPAL-->
+
+ 		</div> <!--//FIM CONTAINER-->
+
+	</body> 
+
+<!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+</html>
